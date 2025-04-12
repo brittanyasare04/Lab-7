@@ -1,14 +1,6 @@
 #!/bin/bash
 
-apt update -y
-
-apt upgrade -y
-
-apt install -y git
-
-apt install -y python3
-
-apt install -y nginx
-
-systemct1 enable nginx
-system start nginx
+/usr/bin/apt update -y
+/usr/bin/apt upgrade -y
+/usr/bin/apt install -y git 
+/usr/bin/python3 -m pip install pandas
